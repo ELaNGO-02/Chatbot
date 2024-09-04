@@ -5,7 +5,7 @@ import google.generativeai as genai
 import google.ai.generativelanguage as glm
 
 with st.sidebar:
-    st.title("Gemini API")
+    st.title("Puddle chatbot")
     
     api_key = st.text_input("API key")
     if api_key:
